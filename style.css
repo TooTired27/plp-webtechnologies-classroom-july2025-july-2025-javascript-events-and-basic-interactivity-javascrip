@@ -1,0 +1,32 @@
+body{
+    font: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color:#333;
+}
+.dark-theme{
+    background-color: #222;
+    color:#eee;
+}
+button{
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: #0056b3;
+}
+.counter-section, .faq-section, #form{
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid #ccc;
+}
+.faqAnswer{
+    display: none;
+}
